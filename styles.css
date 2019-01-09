@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #DDDDDD;
+
+}
+
+body {
+    margin: 0;
+    margin: 0px;
+    padding: 80px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.nav-container h1 {
+
+    display: inline-block;
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 5px;
+    padding: 0;
+    border-radius: 100%;
+}
+
+.nav-container {
+    padding-left: 10px;
+}
+
+
+.topRight {
+
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 0 6px;
+
+}
+
+.topRight a {
+    text-decoration: none;
+    margin-left: 12px;
+
+}
+
+
+
+nav a:hover {
+    color: blue;
+
+
+}
+
+main {
+
+    min-width: 1000px;
+
+}
+
+.title {
+
+    font-size: 17px;
+
+}
+
+.searchBox {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    padding: 0 5px 0 8px;
+    width: 400px;
+}
+
+.searchButton {
+    font-size: 17px;
+    width: 37px;
+    height: auto;
+    padding: 2px 6px 3px 6px;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    vertical-align: top;
+    margin-top: 10px;
+    clear: left;
+    cursor: pointer;
+
+}
+
+.navButtons {
+
+    font-size: 0;
+}
+
+.first {
+    border-radius: 3px 0px 0px 3px
+}
+
+.last {
+    border-radius: 0px 3px 3px 0px
+}
+
+.first,
+.middle,
+.last {
+    font-size: 16px;
+    display: inline-block;
+    background-color: white;
+    padding: 8px 15px;
+    margin-bottom: 30px;
+    border: 1px solid #DDDDDD;
+
+}
+
+.first,
+.last {
+    cursor: pointer;
+}
+
+.listing-title {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+
+.listings {
+    padding: 0;
+}
+
+.listing {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.listing-date,
+.listing-location {
+    color: #999;
+}
+
+.listing-title {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+
+
+.star-icon,
+.magnifying-glass-icon {
+    height: 100%;
+}
